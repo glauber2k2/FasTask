@@ -167,7 +167,7 @@ export default function Component() {
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row lg:justify-end">
               <Link
-                href="#"
+                href="/sign-in"
                 className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                 prefetch={false}
               >
@@ -209,6 +209,7 @@ export default function Component() {
   )
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function MountainIcon(props: any) {
   return (
     <svg
