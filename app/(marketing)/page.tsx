@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from 'next/link'
 
 export default function Component() {
   return (
@@ -206,7 +206,7 @@ export default function Component() {
         </nav>
       </footer>
     </div>
-  );
+  )
 }
 
 function MountainIcon(props: any) {

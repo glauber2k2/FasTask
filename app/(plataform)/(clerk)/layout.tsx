@@ -1,11 +1,7 @@
-import { ReactNode } from "react"
+import { ReactNode } from 'react'
 
-export default function layout({children}: {
-    children: ReactNode
-}) {
+export default function layout({ children }: { children: ReactNode }) {
   return (
-    <div className="h-full flex items-center justify-center">
-        {children}
-    </div>
+    <div className="h-full flex items-center justify-center">{children}</div>
   )
 }
